@@ -4,18 +4,22 @@
         <div id="homeText">
             <div>
               <Title class="title" firstHomeTitle=true level='3' text="Our mission is"/>
+            
             </div>
             
             <div>
                 <Title class="title" homeTitle=true level='1' text="to transform the world"/>
+            
             </div>
 
             <div>
                 <Title class="title" homeTitle=true level='1' text="building digital experiences"/>
+            
             </div>
                
             <div>
                <Title class="title" homeTitle=true level='1' text="that enable our client's growth"/>
+            
             </div>
         </div>
         
