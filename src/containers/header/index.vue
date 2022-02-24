@@ -1,6 +1,8 @@
 <template>
     <header>
-        <img src="@/src/assets/Logo-Compasso-Branco-hor1.png"/>
+        <img src="@/assets/LogoCompasso1.png">
+        <clock>Placeholder</clock>
+        <weather>PlaceHolder</weather>
 
     </header>
   
@@ -16,6 +18,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style  lang="scss" scoped>
+@import './index.scss';
 </style>
