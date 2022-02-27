@@ -4,15 +4,15 @@
         <div id="homeTextBox">
             <div>
             <Title class="title" firstHomeTitle=true level='3' text="Our mission is"/>
-            <textContent homeText=true text="que permitam o crecimento dos nossos clientes"/>
+            <textContent homeText=true text="Nossa missão é"/>
             </div>
             <div>          
             <Title class="title" homeTitle=true level='1' text="to transform the world"/>
-            <textContent homeText=true text="que permitam o crecimento dos nossos clientes"/>
+            <textContent homeText=true text="transformar o mundo"/>
             </div>
             <div>         
             <Title class="title" homeTitle=true level='1' text="building digital experiences"/>
-            <textContent homeText=true text="que permitam o crecimento dos nossos clientes"/>
+            <textContent homeText=true text="construindo experiências digitais"/>
             </div>
             <div>              
             <Title class="title" homeTitle=true level='1' text="that enable our client's growth"/>
