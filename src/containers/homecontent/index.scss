@@ -1,0 +1,23 @@
+#mainContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    
+    img{
+        display: absolute;
+        height: 90vh;
+    }
+    #homeTextBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: end;
+        margin-right: 5%;
+        max-height: 70vh;
+        overflow: hidden;
+    }
+    
+    
+    
+}
+
