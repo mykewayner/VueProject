@@ -5,7 +5,7 @@
     
     img{
         display: absolute;
-        height: 90vh;
+        height: 80vh;
     }
     #homeTextBox{
         display: flex;
@@ -13,8 +13,9 @@
         justify-content: space-evenly;
         text-align: end;
         margin-right: 5%;
-        max-height: 70vh;
+        height: 60vh;
         overflow: hidden;
+        margin-top: 35px;
     }
     
     
