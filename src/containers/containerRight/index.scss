@@ -1,0 +1,14 @@
+.containerRightContent{
+    background: url(@/assets/bg2.png);
+    background-size:cover;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    img {
+        height: 50px;
+        margin-top: 20px;
+
+    }
+    
+    
+}

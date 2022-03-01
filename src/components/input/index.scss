@@ -1,0 +1,26 @@
+.textInput{
+    background-color: transparent;
+    border: solid 1px #e0e0e0ec;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #e0e0e0ec;
+    padding-left: 20px;
+    font-size: 1.2em;
+    height: 50px;
+    width: 100%;
+
+
+}
+
+.submitInput{
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    font-weight: bold;
+    color: #E0E0E0;
+    font-size: 1.2em;
+    cursor: pointer;
+    height: 50px;
+    border: 0; 
+    width: 100%;
+}
