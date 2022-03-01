@@ -3,7 +3,7 @@
     grid-template-columns: 12.6% 31.6% 7.8% 5.5% 5% 23.5% 7% 7%;
     background: linear-gradient(90.16deg, #33383d 0%, #1c1d20 100%);
     color: #ffffff;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
     height: 10%;
@@ -60,13 +60,10 @@
         height: 100%;
         overflow: hidden;
         width: 100%;
+
+
     
     }
-    #continuar-txt p{
-        min-width: 80px;
-    
-    }
-    
     
     
     
@@ -74,25 +71,25 @@
         display: flex;
         flex-direction: row;
         background-color: #1C1D20;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         text-align: center;
         cursor: pointer;
         grid-column: 8;
         min-width: 80px;
+        button{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            background-color: transparent;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-size: 12px;
+            border: 0;
+            width: 100%;
+        
+        
+        }
     }
     
-    #logout-button button{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        background-color: transparent;
-        color: #FFFFFF;
-        cursor: pointer;
-        font-size: 12px;
-        border: 0;
-        width: 100%;
-    
-    
-    }
 }

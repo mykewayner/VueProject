@@ -1,23 +1,23 @@
 <template>
-    <header>
-        <img src="@/assets/LogoCompasso1.png">
-        <clock>Placeholder</clock>
-        <weather>PlaceHolder</weather>
+  <div id=header>
+    <img draggable="false" src="@/assets/LogoCompasso1.png" alt="Logo">
+    <clock></clock>
+    <p>Placeholder</p>
 
-    </header>
-  
+  </div>
 </template>
 
 <script>
+import Clock from '@/components/clock/index.vue'
 export default {
-    name: 'Header',
-    component: {
-
-    }
-
+  name: 'Header',
+  components: {
+    Clock,
+  }
 }
 </script>
 
-<style  lang="scss" scoped>
+<style lang="scss" scoped>
 @import './index.scss';
 </style>
+

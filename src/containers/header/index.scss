@@ -1,4 +1,4 @@
-header {
+#header {
     display: flex;
     justify-content: space-between;
     margin-right: 5px;
@@ -7,6 +7,7 @@ header {
   
     img {
       height: 50px;
-      margin-top: 5px;
+      margin-top: 15px;
+      margin-left: 15px;
     }
 }
