@@ -1,5 +1,5 @@
 <template>
-   <p :class="{homeText, homeFooterText}">{{ text }}</p>
+   <p :class="{homeText, homeFooterText, introText}">{{ text }}</p>
 </template>
 
 <script>
@@ -17,6 +17,10 @@ export default {
         },
         homeFooterText: {
             type: Boolean,
+            default: false,
+        },
+        introText: {
+            type:Boolean,
             default: false,
         }
 
