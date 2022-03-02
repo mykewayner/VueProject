@@ -1,11 +1,11 @@
 <template>
   <div class="weather">
     <div id="location">
-      <textContent weatherText="true" :text="`${localActual} - ${stateActual}`" />
+      <textContent :text="`${localActual} - ${stateActual}`" />
     </div>
     <div id="weatherInfo">
       <img draggable="false" :src="iconActual" alt="Weather Icon" />
-      <Title weatherTitle="true" level="3" :text="`${temp}°`" />
+      <Title level="3" :text="`${temp}°`" />
     </div>
   </div>
 </template>
