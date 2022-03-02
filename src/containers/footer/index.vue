@@ -2,17 +2,17 @@
     <section class="home-footer">
 
                 <div id="footer-txt">
-                    <textContent homeFooterText=true text="Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixa-a aberta em segundo plano e abra uma nova janela para continuar a navegar"/>
+                    <textContent :homeFooterText=true text="Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixa-a aberta em segundo plano e abra uma nova janela para continuar a navegar"/>
                 </div>
 
                 <div id="footer-bar"></div>
 
-                <textContent homeFooterText=true id="footer-refresh-txt" text="Aplication refresh in" />
+                <textContent :homeFooterText=true id="footer-refresh-txt" text="Aplication refresh in" />
 
                 <timer />
 
                 <div id="continuar-txt">
-                    <textContent homeFooterText=true text="continuar navegando" />
+                    <textContent :homeFooterText=true text="continuar navegando" />
                 </div>
 
                 <div id="logout-button">
