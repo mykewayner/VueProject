@@ -9,11 +9,7 @@
 
                 <textContent homeFooterText=true id="footer-refresh-txt" text="Aplication refresh in" />
 
-                <div id="refresh-box">
-                    <p id="refresh-time">600</p>
-                    <textContent homeFooterText=true text="seconds"/>
-
-                </div>
+                <timer />
 
                 <div id="continuar-txt">
                     <textContent homeFooterText=true text="continuar navegando" />
@@ -30,10 +26,12 @@
 
 <script>
 import textContent from '@/components/textContent/index.vue'
+import timer from '@/components/timer/index.vue'
 export default {
     name:"homeFooter",
     components:{
-        textContent
+        textContent,
+        timer
     }
     
 

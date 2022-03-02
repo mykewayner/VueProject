@@ -33,9 +33,6 @@ export default {
    formTitle:{
      default: false,
    },
-   clockTitle:{
-     default: false,
-   }
  },
 
  

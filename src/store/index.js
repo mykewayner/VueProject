@@ -13,7 +13,7 @@ export default new Vuex.Store({
   mutations: {
     logout(state){
       state.logged = false
-      router.push('/login')
+      router.push('/')
     },
   },
   actions: {
