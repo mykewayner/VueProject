@@ -2,17 +2,19 @@
   <div id=header>
     <img draggable="false" src="@/assets/LogoCompasso1.png" alt="Logo">
     <clock></clock>
-    <p>Placeholder</p>
+    <Weather></Weather>
 
   </div>
 </template>
 
 <script>
 import Clock from '@/components/clock/index.vue'
+import Weather from '@/components/weather/index.vue'
 export default {
   name: 'Header',
   components: {
     Clock,
+    Weather,
   }
 }
 </script>
