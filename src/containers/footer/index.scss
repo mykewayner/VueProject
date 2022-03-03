@@ -7,12 +7,17 @@
     width: 100%;
     bottom: 0;
     height: 10%;
-    
+    @media(max-width: 850px){
+        grid-template-columns: 30% 70%;
+    }
     #footer-txt{
         display: flex;
         grid-column: 2;
         align-items: center;
         text-align: right;
+        @media(max-width: 850px){
+            display: none;
+        }
         
     }
     
@@ -21,6 +26,9 @@
         align-items: center;
         grid-column: 4;
         text-align: right;
+        @media(max-width: 850px){
+            display: none;
+        }
     
     }
     
@@ -31,6 +39,9 @@
         top: 10%;
         width: 10px;
         left: 45%;
+        @media(max-width: 850px){
+            display: none;
+        }
     }
     
     #refresh-box{
@@ -41,11 +52,17 @@
         margin-left: 16px;
         padding-left: 50%;
         grid-column: 5;
+        @media(max-width: 850px){
+            display: none;
+        }
         
     }
     #refresh-time{
         font-weight: bold;
         font-size: 28px;
+        @media(max-width: 850px){
+            display: none;
+        }
     }
     
     #continuar-txt{
@@ -60,6 +77,12 @@
         height: 100%;
         overflow: hidden;
         width: 100%;
+        @media(max-width: 850px){
+            grid-column: 2;
+            height: 100%;
+            width: 100%;
+
+        }
 
 
     
@@ -77,6 +100,10 @@
         cursor: pointer;
         grid-column: 8;
         min-width: 80px;
+        @media(max-width: 850px){
+            grid-column: 1;
+            height: 100%;
+        }
         button{
             display: flex;
             text-align: center;

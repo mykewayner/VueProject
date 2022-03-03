@@ -6,10 +6,19 @@
     margin-left: 10px;
     padding-left: 15px;
     grid-column: 5;
+    @media(max-width: 850px){
+        display: none;
+    }
     h1{
         font-size: 28px;
+        @media(max-width: 850px){
+            display: none;
+        }
     }
     p {
         font-size: 10px;
+        @media(max-width: 850px){
+            display: none;
+        }
     }
 }

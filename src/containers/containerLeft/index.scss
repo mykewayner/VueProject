@@ -9,10 +9,20 @@
     color: white;
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
     box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+
+    @media(max-width: 800px){
+        width: 100%;
+    }
     
     .intro {
         margin-top: 10%;  
-        width: 50%; 
+        width: 50%;
+        
+        @media(max-width: 800px){
+        width: 75%;
+        margin-top: 20%;
+    
+    }
     }
 
     .login-form{
@@ -21,6 +31,9 @@
         flex-direction: column;
         width: 50%;
         height: 50%;
+        @media(max-width: 800px){
+            width: 75%;
+        }
 
 
         .login-input {
@@ -29,6 +42,7 @@
         
         .password-input {
             position: relative;
+            
         }
 
         
@@ -37,9 +51,17 @@
              width: 20px;
              right: 5%;
              top: 35%;
+        
+
 
 }
     }
 
 
+}
+.errorMsg{
+
+    text-align: center;
+    color: #E9B425;
+    
 }

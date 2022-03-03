@@ -6,6 +6,13 @@
     img{
         display: absolute;
         height: 80vh;
+        @media(max-width: 650px){
+            margin-bottom: 0;
+            width: 420px;
+            height: 725px;
+            position: absolute;
+            top: 100px;
+          }
         
     }
     #homeTextBox{
@@ -17,6 +24,9 @@
         height: 60vh;
         overflow: hidden;
         margin-top: 35px;
+        @media(max-width: 650px){
+            display: none;
+        }
     }
     
     
