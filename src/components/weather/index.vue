@@ -1,7 +1,7 @@
 <template>
   <div class="weather">
     <div id="location">
-      <textContent :text="`${localActual} - ${stateActual}`" />
+      <textContent id="locationText" :text="`${localActual} - ${stateActual}`" />
     </div>
     <div id="weatherInfo">
       <img draggable="false" :src="iconActual" alt="Weather Icon" />

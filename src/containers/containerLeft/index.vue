@@ -20,7 +20,7 @@
                         <p v-if="loginError" class="error">Ops, usuário ou senha inválidos.<br> Tente novamente.</p>
                     </div>
 
-                    <Input type="submit" :submitInput=true />
+                    <Input type="submit" text="continuar" :submitInput=true />
 
                  </form>
   </div>
