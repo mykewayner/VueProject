@@ -29,6 +29,7 @@
         
         .password-input {
             position: relative;
+            
         }
 
         
@@ -37,9 +38,17 @@
              width: 20px;
              right: 5%;
              top: 35%;
+        
+
 
 }
     }
 
 
+}
+.errorMsg{
+
+    text-align: center;
+    color: #E9B425;
+    
 }
