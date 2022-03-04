@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '*',
-    redirect: '/login'
+    redirect: '/notfound'
   },
   {
     path: '/',
@@ -24,13 +24,26 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '@/views/Login/LoginPage.vue'),
     meta: { title: 'Compass - Login Page' }
 
+  },
+  {
+    path: '/unauthorized',
+    name: 'unauthorized',
+    component: () => import(/* webpackChunkName: "about" */ '@/views/Unauthorized/index.vue'),
+    meta: { title: '401 - unauthorized' }
+
+  },
+  {
+    path: '/notfound',
+    name: 'notfound',
+    component: () => import(/* webpackChunkName: "about" */ '@/views/notFound/index.vue'),
+    meta: { title: '404 - Page not found' }
+
   }
+  
+
 ]
 
 const router = new VueRouter({
@@ -40,13 +53,11 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next)=>{
-  if ( to.name === 'home' && !store.state.logged ){next({name: 'login',})}
+  if ( to.name === 'home' && !store.state.logged ){next({name: 'unauthorized',})}
   else next()
 })
 const DEFAULT_TITLE = 'Some Default Title';
 router.afterEach((to) => {
-    // Use next tick to handle router history correctly
-    // see: https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609
     Vue.nextTick(() => {
         document.title = to.meta.title || DEFAULT_TITLE;
     });
