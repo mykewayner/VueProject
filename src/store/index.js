@@ -25,6 +25,9 @@ export default new Vuex.Store({
       state.logged = false
       router.push('/')
     },
+    redirect(){
+      router.push('/login')
+    },
 
     loginAuth(state){
       if(state.userData == 'admin' && state.passwordData == 'admin'){

@@ -15,8 +15,8 @@
                     <textContent :homeFooterText=true text="continuar navegando" />
                 </div>
 
-                <div id="logout-button">
-                    <button>Logout</button>
+                <div @click="logout" id="logout-button">
+                    <button  >Logout</button>
                 </div>
 
 
@@ -27,15 +27,21 @@
 <script>
 import textContent from '@/components/textContent/index.vue'
 import timer from '@/components/timer/index.vue'
+import { mapMutations } from 'vuex'
 export default {
     name:"homeFooter",
     components:{
         textContent,
         timer
-    }
+    },
     
-
+     methods: {
+      
+     ...mapMutations(['logout']),
+    
+    }
 }
+
 </script>
 
 <style lang="scss" scoped>
