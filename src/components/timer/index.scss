@@ -1,0 +1,27 @@
+.refreshBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 15px;
+    grid-column: 5;
+    @media(max-width: 850px){
+        display: none;
+        grid-column: unset;
+    }
+    h1{
+        font-size: 28px;
+        @media(max-width: 850px){
+            display: none;
+            grid-column: unset;
+        }
+    }
+    p {
+        font-size: 10px;
+        @media(max-width: 850px){
+            display: none;
+            grid-column: unset;
+        }
+    }
+}

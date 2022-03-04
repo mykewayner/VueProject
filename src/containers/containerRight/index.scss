@@ -1,0 +1,24 @@
+.containerRightContent{
+    background: url(@/assets/bg2.png);
+    background-size:cover;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    @media(max-width: 800px){
+        width: 0%;
+    }
+
+    img {
+        height: 50px;
+        margin-top: 20px;
+        @media(max-width: 800px){
+            position: absolute;
+            right: 0;
+            margin-right: 30px;
+            height: 60px;
+        }
+
+    }
+    
+    
+}

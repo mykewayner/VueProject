@@ -1,0 +1,22 @@
+.timeContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    @media(max-width: 650px){
+        display: none;
+    }
+    .time{
+        font-size: 100px;
+        font-weight: 700;
+    }
+
+    
+  }
+
+.date{
+    font-size: 12px;
+    text-align: center;
+    @media(max-width: 650px){
+        display: none;
+    }
+}

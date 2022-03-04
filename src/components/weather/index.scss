@@ -1,0 +1,28 @@
+.weather{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+    margin-right: 15px;
+    @media(max-width: 650px){
+        display: none;
+    }
+  
+    #weatherInfo{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: black;
+
+        img{
+            height: 35px;
+        }
+    }
+    #locationText{
+        font-size: 12px;
+    }
+}
